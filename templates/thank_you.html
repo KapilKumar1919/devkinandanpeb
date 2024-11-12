@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block style %}
+<style>
+    .container-thank-you {
+        text-align: center;
+        padding: 20px;
+        border: 1px solid #ccc;
+        background-color: #fff;
+    }
+</style>
+
+{% endblock style %}
+
+{% block title %}
+{{company.business_name}} | Thank You for Your Inquiry
+{% endblock title %}
+
+{% block body %}
+<div class="container-thank-you">
+    <h3 class="section-sub-title mt-4">Thank You for Your Inquiry</h3>
+    <p>Your inquiry has been received, and we will get back to you as soon as possible.</p>
+</div>
+{% endblock body %}

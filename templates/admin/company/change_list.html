@@ -1,0 +1,20 @@
+{% extends "admin/change_list.html" %}
+
+{% block content %}
+  {% if cl.opts.model_name == 'client' %}
+  <div id="content-main">
+    <form method="post" enctype="multipart/form-data" action="{% url 'upload_client_details' %}">
+      {% csrf_token %}
+      <h2>Upload Client Details</h2>
+      <input type="file" name="excel_file" accept=".xlsx, .xls">
+      <input type="submit" value="Upload">
+    </form>
+  </div>
+
+  <div style="float: left; margin-top: 10px; margin-bottom: 15px;">
+    <button type="submit" value="Download"><a href="{% url "download_client_details" %}">Download Client Records</a></button>
+  </div>
+  {% endif %}
+
+  {{ block.super }}
+{% endblock %}

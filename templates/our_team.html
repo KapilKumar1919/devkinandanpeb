@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+Our Team | YK PEB STRUCTURE 
+{% endblock title %}
+
+{% block body %}
+<div id="banner-area" class="banner-area" style="background-image:url({% static "images/banner/banner1.jpg" %})">
+    <div class="banner-text">
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+                <div class="banner-heading">
+                  <h1 class="banner-title">Our Team</h1>
+                </div>
+            </div><!-- Col end -->
+          </div><!-- Row end -->
+      </div><!-- Container end -->
+    </div><!-- Banner text end -->
+  </div><!-- Banner area end --> 
+  
+  
+  <section id="main-container" class="main-container pb-4">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <h3 class="section-sub-title">Our Leaderships</h3>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        {% for employee in employees %}
+        <div class="col-lg-3 col-sm-8 mb-5">
+          <div class="ts-team-wrapper">
+            {% if employee.passport_image %}
+            <div class="team-img-wrapper">
+              <img loading="lazy" src="{{ employee.passport_image.url }}" class="img-fluid" alt="team-img">
+            </div>
+            {% else %}
+              <p>No image.</p>
+            {% endif %}
+            <div class="ts-team-content-classic">
+              <h3 class="ts-name">{{employee.name}}</h3>
+              <p class="ts-description">{{employee.designation}}</p>
+              <div class="team-social-icons">
+                <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+              <!--/ social-icons-->
+            </div>
+          </div>
+
+        </div><!-- Col end -->
+        {% endfor %}  
+      </div><!-- Content row 1 end -->
+      
+    </div><!-- Container end -->
+  </section><!-- Main container end -->
+{% endblock body %}

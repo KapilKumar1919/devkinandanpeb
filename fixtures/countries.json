@@ -1,0 +1,2741 @@
+[
+      {
+            "model": "country.Country",
+            "pk": 1,
+            "fields": {
+                  "name": "Afghanistan",
+                  "code": "AFG",
+                  "phone_code": "+93",
+                  "region": "Asia",
+                  "sub_region": "Southern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 2,
+            "fields": {
+                  "name": "Aland Islands",
+                  "code": "ALA",
+                  "phone_code": "+358-18",
+                  "region": "Europe",
+                  "sub_region": "Northern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 3,
+            "fields": {
+                  "name": "Albania",
+                  "code": "ALB",
+                  "phone_code": "+355",
+                  "region": "Europe",
+                  "sub_region": "Southern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 4,
+            "fields": {
+                  "name": "Algeria",
+                  "code": "DZA",
+                  "phone_code": "+213",
+                  "region": "Africa",
+                  "sub_region": "Northern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 5,
+            "fields": {
+                  "name": "American Samoa",
+                  "code": "ASM",
+                  "phone_code": "+1-684",
+                  "region": "Oceania",
+                  "sub_region": "Polynesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 6,
+            "fields": {
+                  "name": "Andorra",
+                  "code": "AND",
+                  "phone_code": "+376",
+                  "region": "Europe",
+                  "sub_region": "Southern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 7,
+            "fields": {
+                  "name": "Angola",
+                  "code": "AGO",
+                  "phone_code": "+244",
+                  "region": "Africa",
+                  "sub_region": "Middle Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 8,
+            "fields": {
+                  "name": "Anguilla",
+                  "code": "AIA",
+                  "phone_code": "+1-264",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 9,
+            "fields": {
+                  "name": "Antarctica",
+                  "code": "ATA",
+                  "phone_code": "",
+                  "region": "Polar",
+                  "sub_region": ""
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 10,
+            "fields": {
+                  "name": "Antigua And Barbuda",
+                  "code": "ATG",
+                  "phone_code": "+1-268",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 11,
+            "fields": {
+                  "name": "Argentina",
+                  "code": "ARG",
+                  "phone_code": "+54",
+                  "region": "Americas",
+                  "sub_region": "South America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 12,
+            "fields": {
+                  "name": "Armenia",
+                  "code": "ARM",
+                  "phone_code": "+374",
+                  "region": "Asia",
+                  "sub_region": "Western Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 13,
+            "fields": {
+                  "name": "Aruba",
+                  "code": "ABW",
+                  "phone_code": "+297",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 14,
+            "fields": {
+                  "name": "Australia",
+                  "code": "AUS",
+                  "phone_code": "+61",
+                  "region": "Oceania",
+                  "sub_region": "Australia and New Zealand"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 15,
+            "fields": {
+                  "name": "Austria",
+                  "code": "AUT",
+                  "phone_code": "+43",
+                  "region": "Europe",
+                  "sub_region": "Western Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 16,
+            "fields": {
+                  "name": "Azerbaijan",
+                  "code": "AZE",
+                  "phone_code": "+994",
+                  "region": "Asia",
+                  "sub_region": "Western Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 17,
+            "fields": {
+                  "name": "Bahamas The",
+                  "code": "BHS",
+                  "phone_code": "+1-242",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 18,
+            "fields": {
+                  "name": "Bahrain",
+                  "code": "BHR",
+                  "phone_code": "+973",
+                  "region": "Asia",
+                  "sub_region": "Western Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 19,
+            "fields": {
+                  "name": "Bangladesh",
+                  "code": "BGD",
+                  "phone_code": "+880",
+                  "region": "Asia",
+                  "sub_region": "Southern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 20,
+            "fields": {
+                  "name": "Barbados",
+                  "code": "BRB",
+                  "phone_code": "+1-246",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 21,
+            "fields": {
+                  "name": "Belarus",
+                  "code": "BLR",
+                  "phone_code": "+375",
+                  "region": "Europe",
+                  "sub_region": "Eastern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 22,
+            "fields": {
+                  "name": "Belgium",
+                  "code": "BEL",
+                  "phone_code": "+32",
+                  "region": "Europe",
+                  "sub_region": "Western Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 23,
+            "fields": {
+                  "name": "Belize",
+                  "code": "BLZ",
+                  "phone_code": "+501",
+                  "region": "Americas",
+                  "sub_region": "Central America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 24,
+            "fields": {
+                  "name": "Benin",
+                  "code": "BEN",
+                  "phone_code": "+229",
+                  "region": "Africa",
+                  "sub_region": "Western Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 25,
+            "fields": {
+                  "name": "Bermuda",
+                  "code": "BMU",
+                  "phone_code": "+1-441",
+                  "region": "Americas",
+                  "sub_region": "Northern America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 26,
+            "fields": {
+                  "name": "Bhutan",
+                  "code": "BTN",
+                  "phone_code": "+975",
+                  "region": "Asia",
+                  "sub_region": "Southern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 27,
+            "fields": {
+                  "name": "Bolivia",
+                  "code": "BOL",
+                  "phone_code": "+591",
+                  "region": "Americas",
+                  "sub_region": "South America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 28,
+            "fields": {
+                  "name": "Bosnia and Herzegovina",
+                  "code": "BIH",
+                  "phone_code": "+387",
+                  "region": "Europe",
+                  "sub_region": "Southern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 29,
+            "fields": {
+                  "name": "Botswana",
+                  "code": "BWA",
+                  "phone_code": "+267",
+                  "region": "Africa",
+                  "sub_region": "Southern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 30,
+            "fields": {
+                  "name": "Bouvet Island",
+                  "code": "BVT",
+                  "phone_code": "",
+                  "region": "",
+                  "sub_region": ""
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 31,
+            "fields": {
+                  "name": "Brazil",
+                  "code": "BRA",
+                  "phone_code": "+55",
+                  "region": "Americas",
+                  "sub_region": "South America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 32,
+            "fields": {
+                  "name": "British Indian Ocean Territory",
+                  "code": "IOT",
+                  "phone_code": "+246",
+                  "region": "Africa",
+                  "sub_region": "Eastern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 33,
+            "fields": {
+                  "name": "Brunei",
+                  "code": "BRN",
+                  "phone_code": "+673",
+                  "region": "Asia",
+                  "sub_region": "South-Eastern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 34,
+            "fields": {
+                  "name": "Bulgaria",
+                  "code": "BGR",
+                  "phone_code": "+359",
+                  "region": "Europe",
+                  "sub_region": "Eastern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 35,
+            "fields": {
+                  "name": "Burkina Faso",
+                  "code": "BFA",
+                  "phone_code": "+226",
+                  "region": "Africa",
+                  "sub_region": "Western Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 36,
+            "fields": {
+                  "name": "Burundi",
+                  "code": "BDI",
+                  "phone_code": "+257",
+                  "region": "Africa",
+                  "sub_region": "Eastern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 37,
+            "fields": {
+                  "name": "Cambodia",
+                  "code": "KHM",
+                  "phone_code": "+855",
+                  "region": "Asia",
+                  "sub_region": "South-Eastern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 38,
+            "fields": {
+                  "name": "Cameroon",
+                  "code": "CMR",
+                  "phone_code": "+237",
+                  "region": "Africa",
+                  "sub_region": "Middle Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 39,
+            "fields": {
+                  "name": "Canada",
+                  "code": "CAN",
+                  "phone_code": "+1",
+                  "region": "Americas",
+                  "sub_region": "Northern America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 40,
+            "fields": {
+                  "name": "Cape Verde",
+                  "code": "CPV",
+                  "phone_code": "+238",
+                  "region": "Africa",
+                  "sub_region": "Western Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 41,
+            "fields": {
+                  "name": "Cayman Islands",
+                  "code": "CYM",
+                  "phone_code": "+1-345",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 42,
+            "fields": {
+                  "name": "Central African Republic",
+                  "code": "CAF",
+                  "phone_code": "+236",
+                  "region": "Africa",
+                  "sub_region": "Middle Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 43,
+            "fields": {
+                  "name": "Chad",
+                  "code": "TCD",
+                  "phone_code": "+235",
+                  "region": "Africa",
+                  "sub_region": "Middle Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 44,
+            "fields": {
+                  "name": "Chile",
+                  "code": "CHL",
+                  "phone_code": "+56",
+                  "region": "Americas",
+                  "sub_region": "South America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 45,
+            "fields": {
+                  "name": "China",
+                  "code": "CHN",
+                  "phone_code": "+86",
+                  "region": "Asia",
+                  "sub_region": "Eastern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 46,
+            "fields": {
+                  "name": "Christmas Island",
+                  "code": "CXR",
+                  "phone_code": "+61",
+                  "region": "Oceania",
+                  "sub_region": "Australia and New Zealand"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 47,
+            "fields": {
+                  "name": "Cocos (Keeling) Islands",
+                  "code": "CCK",
+                  "phone_code": "+61",
+                  "region": "Oceania",
+                  "sub_region": "Australia and New Zealand"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 48,
+            "fields": {
+                  "name": "Colombia",
+                  "code": "COL",
+                  "phone_code": "+57",
+                  "region": "Americas",
+                  "sub_region": "South America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 49,
+            "fields": {
+                  "name": "Comoros",
+                  "code": "COM",
+                  "phone_code": "+269",
+                  "region": "Africa",
+                  "sub_region": "Eastern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 50,
+            "fields": {
+                  "name": "Congo",
+                  "code": "COG",
+                  "phone_code": "+242",
+                  "region": "Africa",
+                  "sub_region": "Middle Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 51,
+            "fields": {
+                  "name": "Congo The Democratic Republic Of The",
+                  "code": "COD",
+                  "phone_code": "+243",
+                  "region": "Africa",
+                  "sub_region": "Middle Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 52,
+            "fields": {
+                  "name": "Cook Islands",
+                  "code": "COK",
+                  "phone_code": "+682",
+                  "region": "Oceania",
+                  "sub_region": "Polynesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 53,
+            "fields": {
+                  "name": "Costa Rica",
+                  "code": "CRI",
+                  "phone_code": "+506",
+                  "region": "Americas",
+                  "sub_region": "Central America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 54,
+            "fields": {
+                  "name": "Cote D'Ivoire (Ivory Coast)",
+                  "code": "CIV",
+                  "phone_code": "+225",
+                  "region": "Africa",
+                  "sub_region": "Western Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 55,
+            "fields": {
+                  "name": "Croatia (Hrvatska)",
+                  "code": "HRV",
+                  "phone_code": "+385",
+                  "region": "Europe",
+                  "sub_region": "Southern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 56,
+            "fields": {
+                  "name": "Cuba",
+                  "code": "CUB",
+                  "phone_code": "+53",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 249,
+            "fields": {
+                  "name": "Cura\u00e7ao",
+                  "code": "CUW",
+                  "phone_code": "+599",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 57,
+            "fields": {
+                  "name": "Cyprus",
+                  "code": "CYP",
+                  "phone_code": "+357",
+                  "region": "Europe",
+                  "sub_region": "Southern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 58,
+            "fields": {
+                  "name": "Czech Republic",
+                  "code": "CZE",
+                  "phone_code": "+420",
+                  "region": "Europe",
+                  "sub_region": "Eastern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 59,
+            "fields": {
+                  "name": "Denmark",
+                  "code": "DNK",
+                  "phone_code": "+45",
+                  "region": "Europe",
+                  "sub_region": "Northern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 60,
+            "fields": {
+                  "name": "Djibouti",
+                  "code": "DJI",
+                  "phone_code": "+253",
+                  "region": "Africa",
+                  "sub_region": "Eastern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 61,
+            "fields": {
+                  "name": "Dominica",
+                  "code": "DMA",
+                  "phone_code": "+1-767",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 62,
+            "fields": {
+                  "name": "Dominican Republic",
+                  "code": "DOM",
+                  "phone_code": "+1-809 and 1-829",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 63,
+            "fields": {
+                  "name": "East Timor",
+                  "code": "TLS",
+                  "phone_code": "+670",
+                  "region": "Asia",
+                  "sub_region": "South-Eastern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 64,
+            "fields": {
+                  "name": "Ecuador",
+                  "code": "ECU",
+                  "phone_code": "+593",
+                  "region": "Americas",
+                  "sub_region": "South America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 65,
+            "fields": {
+                  "name": "Egypt",
+                  "code": "EGY",
+                  "phone_code": "+20",
+                  "region": "Africa",
+                  "sub_region": "Northern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 66,
+            "fields": {
+                  "name": "El Salvador",
+                  "code": "SLV",
+                  "phone_code": "+503",
+                  "region": "Americas",
+                  "sub_region": "Central America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 67,
+            "fields": {
+                  "name": "Equatorial Guinea",
+                  "code": "GNQ",
+                  "phone_code": "+240",
+                  "region": "Africa",
+                  "sub_region": "Middle Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 68,
+            "fields": {
+                  "name": "Eritrea",
+                  "code": "ERI",
+                  "phone_code": "+291",
+                  "region": "Africa",
+                  "sub_region": "Eastern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 69,
+            "fields": {
+                  "name": "Estonia",
+                  "code": "EST",
+                  "phone_code": "+372",
+                  "region": "Europe",
+                  "sub_region": "Northern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 70,
+            "fields": {
+                  "name": "Ethiopia",
+                  "code": "ETH",
+                  "phone_code": "+251",
+                  "region": "Africa",
+                  "sub_region": "Eastern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 71,
+            "fields": {
+                  "name": "Falkland Islands",
+                  "code": "FLK",
+                  "phone_code": "+500",
+                  "region": "Americas",
+                  "sub_region": "South America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 72,
+            "fields": {
+                  "name": "Faroe Islands",
+                  "code": "FRO",
+                  "phone_code": "+298",
+                  "region": "Europe",
+                  "sub_region": "Northern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 73,
+            "fields": {
+                  "name": "Fiji Islands",
+                  "code": "FJI",
+                  "phone_code": "+679",
+                  "region": "Oceania",
+                  "sub_region": "Melanesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 74,
+            "fields": {
+                  "name": "Finland",
+                  "code": "FIN",
+                  "phone_code": "+358",
+                  "region": "Europe",
+                  "sub_region": "Northern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 75,
+            "fields": {
+                  "name": "France",
+                  "code": "FRA",
+                  "phone_code": "+33",
+                  "region": "Europe",
+                  "sub_region": "Western Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 76,
+            "fields": {
+                  "name": "French Guiana",
+                  "code": "GUF",
+                  "phone_code": "+594",
+                  "region": "Americas",
+                  "sub_region": "South America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 77,
+            "fields": {
+                  "name": "French Polynesia",
+                  "code": "PYF",
+                  "phone_code": "+689",
+                  "region": "Oceania",
+                  "sub_region": "Polynesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 78,
+            "fields": {
+                  "name": "French Southern Territories",
+                  "code": "ATF",
+                  "phone_code": "",
+                  "region": "Africa",
+                  "sub_region": "Southern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 79,
+            "fields": {
+                  "name": "Gabon",
+                  "code": "GAB",
+                  "phone_code": "+241",
+                  "region": "Africa",
+                  "sub_region": "Middle Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 80,
+            "fields": {
+                  "name": "Gambia The",
+                  "code": "GMB",
+                  "phone_code": "+220",
+                  "region": "Africa",
+                  "sub_region": "Western Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 81,
+            "fields": {
+                  "name": "Georgia",
+                  "code": "GEO",
+                  "phone_code": "+995",
+                  "region": "Asia",
+                  "sub_region": "Western Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 82,
+            "fields": {
+                  "name": "Germany",
+                  "code": "DEU",
+                  "phone_code": "+49",
+                  "region": "Europe",
+                  "sub_region": "Western Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 83,
+            "fields": {
+                  "name": "Ghana",
+                  "code": "GHA",
+                  "phone_code": "+233",
+                  "region": "Africa",
+                  "sub_region": "Western Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 84,
+            "fields": {
+                  "name": "Gibraltar",
+                  "code": "GIB",
+                  "phone_code": "+350",
+                  "region": "Europe",
+                  "sub_region": "Southern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 85,
+            "fields": {
+                  "name": "Greece",
+                  "code": "GRC",
+                  "phone_code": "+30",
+                  "region": "Europe",
+                  "sub_region": "Southern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 86,
+            "fields": {
+                  "name": "Greenland",
+                  "code": "GRL",
+                  "phone_code": "+299",
+                  "region": "Americas",
+                  "sub_region": "Northern America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 87,
+            "fields": {
+                  "name": "Grenada",
+                  "code": "GRD",
+                  "phone_code": "+1-473",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 88,
+            "fields": {
+                  "name": "Guadeloupe",
+                  "code": "GLP",
+                  "phone_code": "+590",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 89,
+            "fields": {
+                  "name": "Guam",
+                  "code": "GUM",
+                  "phone_code": "+1-671",
+                  "region": "Oceania",
+                  "sub_region": "Micronesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 90,
+            "fields": {
+                  "name": "Guatemala",
+                  "code": "GTM",
+                  "phone_code": "+502",
+                  "region": "Americas",
+                  "sub_region": "Central America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 91,
+            "fields": {
+                  "name": "Guernsey and Alderney",
+                  "code": "GGY",
+                  "phone_code": "+44-1481",
+                  "region": "Europe",
+                  "sub_region": "Northern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 92,
+            "fields": {
+                  "name": "Guinea",
+                  "code": "GIN",
+                  "phone_code": "+224",
+                  "region": "Africa",
+                  "sub_region": "Western Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 93,
+            "fields": {
+                  "name": "Guinea-Bissau",
+                  "code": "GNB",
+                  "phone_code": "+245",
+                  "region": "Africa",
+                  "sub_region": "Western Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 94,
+            "fields": {
+                  "name": "Guyana",
+                  "code": "GUY",
+                  "phone_code": "+592",
+                  "region": "Americas",
+                  "sub_region": "South America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 95,
+            "fields": {
+                  "name": "Haiti",
+                  "code": "HTI",
+                  "phone_code": "+509",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 96,
+            "fields": {
+                  "name": "Heard and McDonald Islands",
+                  "code": "HMD",
+                  "phone_code": "",
+                  "region": "",
+                  "sub_region": ""
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 97,
+            "fields": {
+                  "name": "Honduras",
+                  "code": "HND",
+                  "phone_code": "+504",
+                  "region": "Americas",
+                  "sub_region": "Central America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 98,
+            "fields": {
+                  "name": "Hong Kong S.A.R.",
+                  "code": "HKG",
+                  "phone_code": "+852",
+                  "region": "Asia",
+                  "sub_region": "Eastern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 99,
+            "fields": {
+                  "name": "Hungary",
+                  "code": "HUN",
+                  "phone_code": "+36",
+                  "region": "Europe",
+                  "sub_region": "Eastern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 100,
+            "fields": {
+                  "name": "Iceland",
+                  "code": "ISL",
+                  "phone_code": "+354",
+                  "region": "Europe",
+                  "sub_region": "Northern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 101,
+            "fields": {
+                  "name": "India",
+                  "code": "IND",
+                  "phone_code": "+91",
+                  "region": "Asia",
+                  "sub_region": "Southern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 102,
+            "fields": {
+                  "name": "Indonesia",
+                  "code": "IDN",
+                  "phone_code": "+62",
+                  "region": "Asia",
+                  "sub_region": "South-Eastern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 103,
+            "fields": {
+                  "name": "Iran",
+                  "code": "IRN",
+                  "phone_code": "+98",
+                  "region": "Asia",
+                  "sub_region": "Southern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 104,
+            "fields": {
+                  "name": "Iraq",
+                  "code": "IRQ",
+                  "phone_code": "+964",
+                  "region": "Asia",
+                  "sub_region": "Western Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 105,
+            "fields": {
+                  "name": "Ireland",
+                  "code": "IRL",
+                  "phone_code": "+353",
+                  "region": "Europe",
+                  "sub_region": "Northern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 106,
+            "fields": {
+                  "name": "Israel",
+                  "code": "ISR",
+                  "phone_code": "+972",
+                  "region": "Asia",
+                  "sub_region": "Western Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 107,
+            "fields": {
+                  "name": "Italy",
+                  "code": "ITA",
+                  "phone_code": "+39",
+                  "region": "Europe",
+                  "sub_region": "Southern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 108,
+            "fields": {
+                  "name": "Jamaica",
+                  "code": "JAM",
+                  "phone_code": "+1-876",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 109,
+            "fields": {
+                  "name": "Japan",
+                  "code": "JPN",
+                  "phone_code": "+81",
+                  "region": "Asia",
+                  "sub_region": "Eastern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 110,
+            "fields": {
+                  "name": "Jersey",
+                  "code": "JEY",
+                  "phone_code": "+44-1534",
+                  "region": "Europe",
+                  "sub_region": "Northern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 111,
+            "fields": {
+                  "name": "Jordan",
+                  "code": "JOR",
+                  "phone_code": "+962",
+                  "region": "Asia",
+                  "sub_region": "Western Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 112,
+            "fields": {
+                  "name": "Kazakhstan",
+                  "code": "KAZ",
+                  "phone_code": "+7",
+                  "region": "Asia",
+                  "sub_region": "Central Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 113,
+            "fields": {
+                  "name": "Kenya",
+                  "code": "KEN",
+                  "phone_code": "+254",
+                  "region": "Africa",
+                  "sub_region": "Eastern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 114,
+            "fields": {
+                  "name": "Kiribati",
+                  "code": "KIR",
+                  "phone_code": "+686",
+                  "region": "Oceania",
+                  "sub_region": "Micronesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 115,
+            "fields": {
+                  "name": "Korea North",
+                  "code": "PRK",
+                  "phone_code": "+850",
+                  "region": "Asia",
+                  "sub_region": "Eastern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 116,
+            "fields": {
+                  "name": "Korea South",
+                  "code": "KOR",
+                  "phone_code": "+82",
+                  "region": "Asia",
+                  "sub_region": "Eastern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 248,
+            "fields": {
+                  "name": "Kosovo",
+                  "code": "XKX",
+                  "phone_code": "+383",
+                  "region": "Europe",
+                  "sub_region": "Eastern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 117,
+            "fields": {
+                  "name": "Kuwait",
+                  "code": "KWT",
+                  "phone_code": "+965",
+                  "region": "Asia",
+                  "sub_region": "Western Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 118,
+            "fields": {
+                  "name": "Kyrgyzstan",
+                  "code": "KGZ",
+                  "phone_code": "+996",
+                  "region": "Asia",
+                  "sub_region": "Central Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 119,
+            "fields": {
+                  "name": "Laos",
+                  "code": "LAO",
+                  "phone_code": "+856",
+                  "region": "Asia",
+                  "sub_region": "South-Eastern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 120,
+            "fields": {
+                  "name": "Latvia",
+                  "code": "LVA",
+                  "phone_code": "+371",
+                  "region": "Europe",
+                  "sub_region": "Northern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 121,
+            "fields": {
+                  "name": "Lebanon",
+                  "code": "LBN",
+                  "phone_code": "+961",
+                  "region": "Asia",
+                  "sub_region": "Western Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 122,
+            "fields": {
+                  "name": "Lesotho",
+                  "code": "LSO",
+                  "phone_code": "+266",
+                  "region": "Africa",
+                  "sub_region": "Southern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 123,
+            "fields": {
+                  "name": "Liberia",
+                  "code": "LBR",
+                  "phone_code": "+231",
+                  "region": "Africa",
+                  "sub_region": "Western Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 124,
+            "fields": {
+                  "name": "Libya",
+                  "code": "LBY",
+                  "phone_code": "+218",
+                  "region": "Africa",
+                  "sub_region": "Northern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 125,
+            "fields": {
+                  "name": "Liechtenstein",
+                  "code": "LIE",
+                  "phone_code": "+423",
+                  "region": "Europe",
+                  "sub_region": "Western Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 126,
+            "fields": {
+                  "name": "Lithuania",
+                  "code": "LTU",
+                  "phone_code": "+370",
+                  "region": "Europe",
+                  "sub_region": "Northern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 127,
+            "fields": {
+                  "name": "Luxembourg",
+                  "code": "LUX",
+                  "phone_code": "+352",
+                  "region": "Europe",
+                  "sub_region": "Western Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 128,
+            "fields": {
+                  "name": "Macau S.A.R.",
+                  "code": "MAC",
+                  "phone_code": "+853",
+                  "region": "Asia",
+                  "sub_region": "Eastern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 129,
+            "fields": {
+                  "name": "Macedonia",
+                  "code": "MKD",
+                  "phone_code": "+389",
+                  "region": "Europe",
+                  "sub_region": "Southern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 130,
+            "fields": {
+                  "name": "Madagascar",
+                  "code": "MDG",
+                  "phone_code": "+261",
+                  "region": "Africa",
+                  "sub_region": "Eastern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 131,
+            "fields": {
+                  "name": "Malawi",
+                  "code": "MWI",
+                  "phone_code": "+265",
+                  "region": "Africa",
+                  "sub_region": "Eastern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 132,
+            "fields": {
+                  "name": "Malaysia",
+                  "code": "MYS",
+                  "phone_code": "+60",
+                  "region": "Asia",
+                  "sub_region": "South-Eastern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 133,
+            "fields": {
+                  "name": "Maldives",
+                  "code": "MDV",
+                  "phone_code": "+960",
+                  "region": "Asia",
+                  "sub_region": "Southern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 134,
+            "fields": {
+                  "name": "Mali",
+                  "code": "MLI",
+                  "phone_code": "+223",
+                  "region": "Africa",
+                  "sub_region": "Western Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 135,
+            "fields": {
+                  "name": "Malta",
+                  "code": "MLT",
+                  "phone_code": "+356",
+                  "region": "Europe",
+                  "sub_region": "Southern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 136,
+            "fields": {
+                  "name": "Man (Isle of)",
+                  "code": "IMN",
+                  "phone_code": "+44-1624",
+                  "region": "Europe",
+                  "sub_region": "Northern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 137,
+            "fields": {
+                  "name": "Marshall Islands",
+                  "code": "MHL",
+                  "phone_code": "+692",
+                  "region": "Oceania",
+                  "sub_region": "Micronesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 138,
+            "fields": {
+                  "name": "Martinique",
+                  "code": "MTQ",
+                  "phone_code": "+596",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 139,
+            "fields": {
+                  "name": "Mauritania",
+                  "code": "MRT",
+                  "phone_code": "+222",
+                  "region": "Africa",
+                  "sub_region": "Western Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 140,
+            "fields": {
+                  "name": "Mauritius",
+                  "code": "MUS",
+                  "phone_code": "+230",
+                  "region": "Africa",
+                  "sub_region": "Eastern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 141,
+            "fields": {
+                  "name": "Mayotte",
+                  "code": "MYT",
+                  "phone_code": "+262",
+                  "region": "Africa",
+                  "sub_region": "Eastern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 142,
+            "fields": {
+                  "name": "Mexico",
+                  "code": "MEX",
+                  "phone_code": "+52",
+                  "region": "Americas",
+                  "sub_region": "Central America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 143,
+            "fields": {
+                  "name": "Micronesia",
+                  "code": "FSM",
+                  "phone_code": "+691",
+                  "region": "Oceania",
+                  "sub_region": "Micronesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 144,
+            "fields": {
+                  "name": "Moldova",
+                  "code": "MDA",
+                  "phone_code": "+373",
+                  "region": "Europe",
+                  "sub_region": "Eastern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 145,
+            "fields": {
+                  "name": "Monaco",
+                  "code": "MCO",
+                  "phone_code": "+377",
+                  "region": "Europe",
+                  "sub_region": "Western Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 146,
+            "fields": {
+                  "name": "Mongolia",
+                  "code": "MNG",
+                  "phone_code": "+976",
+                  "region": "Asia",
+                  "sub_region": "Eastern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 147,
+            "fields": {
+                  "name": "Montenegro",
+                  "code": "MNE",
+                  "phone_code": "+382",
+                  "region": "Europe",
+                  "sub_region": "Southern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 148,
+            "fields": {
+                  "name": "Montserrat",
+                  "code": "MSR",
+                  "phone_code": "+1-664",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 149,
+            "fields": {
+                  "name": "Morocco",
+                  "code": "MAR",
+                  "phone_code": "+212",
+                  "region": "Africa",
+                  "sub_region": "Northern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 150,
+            "fields": {
+                  "name": "Mozambique",
+                  "code": "MOZ",
+                  "phone_code": "+258",
+                  "region": "Africa",
+                  "sub_region": "Eastern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 151,
+            "fields": {
+                  "name": "Myanmar",
+                  "code": "MMR",
+                  "phone_code": "+95",
+                  "region": "Asia",
+                  "sub_region": "South-Eastern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 152,
+            "fields": {
+                  "name": "Namibia",
+                  "code": "NAM",
+                  "phone_code": "+264",
+                  "region": "Africa",
+                  "sub_region": "Southern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 153,
+            "fields": {
+                  "name": "Nauru",
+                  "code": "NRU",
+                  "phone_code": "+674",
+                  "region": "Oceania",
+                  "sub_region": "Micronesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 154,
+            "fields": {
+                  "name": "Nepal",
+                  "code": "NPL",
+                  "phone_code": "+977",
+                  "region": "Asia",
+                  "sub_region": "Southern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 155,
+            "fields": {
+                  "name": "Netherlands Antilles",
+                  "code": "ANT",
+                  "phone_code": "",
+                  "region": null,
+                  "sub_region": null
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 156,
+            "fields": {
+                  "name": "Netherlands The",
+                  "code": "NLD",
+                  "phone_code": "+31",
+                  "region": "Europe",
+                  "sub_region": "Western Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 157,
+            "fields": {
+                  "name": "New Caledonia",
+                  "code": "NCL",
+                  "phone_code": "+687",
+                  "region": "Oceania",
+                  "sub_region": "Melanesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 158,
+            "fields": {
+                  "name": "New Zealand",
+                  "code": "NZL",
+                  "phone_code": "+64",
+                  "region": "Oceania",
+                  "sub_region": "Australia and New Zealand"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 159,
+            "fields": {
+                  "name": "Nicaragua",
+                  "code": "NIC",
+                  "phone_code": "+505",
+                  "region": "Americas",
+                  "sub_region": "Central America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 160,
+            "fields": {
+                  "name": "Niger",
+                  "code": "NER",
+                  "phone_code": "+227",
+                  "region": "Africa",
+                  "sub_region": "Western Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 161,
+            "fields": {
+                  "name": "Nigeria",
+                  "code": "NGA",
+                  "phone_code": "+234",
+                  "region": "Africa",
+                  "sub_region": "Western Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 162,
+            "fields": {
+                  "name": "Niue",
+                  "code": "NIU",
+                  "phone_code": "+683",
+                  "region": "Oceania",
+                  "sub_region": "Polynesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 163,
+            "fields": {
+                  "name": "Norfolk Island",
+                  "code": "NFK",
+                  "phone_code": "+672",
+                  "region": "Oceania",
+                  "sub_region": "Australia and New Zealand"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 164,
+            "fields": {
+                  "name": "Northern Mariana Islands",
+                  "code": "MNP",
+                  "phone_code": "+1-670",
+                  "region": "Oceania",
+                  "sub_region": "Micronesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 165,
+            "fields": {
+                  "name": "Norway",
+                  "code": "NOR",
+                  "phone_code": "+47",
+                  "region": "Europe",
+                  "sub_region": "Northern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 166,
+            "fields": {
+                  "name": "Oman",
+                  "code": "OMN",
+                  "phone_code": "+968",
+                  "region": "Asia",
+                  "sub_region": "Western Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 167,
+            "fields": {
+                  "name": "Pakistan",
+                  "code": "PAK",
+                  "phone_code": "+92",
+                  "region": "Asia",
+                  "sub_region": "Southern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 168,
+            "fields": {
+                  "name": "Palau",
+                  "code": "PLW",
+                  "phone_code": "+680",
+                  "region": "Oceania",
+                  "sub_region": "Micronesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 169,
+            "fields": {
+                  "name": "Palestinian Territory Occupied",
+                  "code": "PSE",
+                  "phone_code": "+970",
+                  "region": "Asia",
+                  "sub_region": "Western Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 170,
+            "fields": {
+                  "name": "Panama",
+                  "code": "PAN",
+                  "phone_code": "+507",
+                  "region": "Americas",
+                  "sub_region": "Central America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 171,
+            "fields": {
+                  "name": "Papua new Guinea",
+                  "code": "PNG",
+                  "phone_code": "+675",
+                  "region": "Oceania",
+                  "sub_region": "Melanesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 172,
+            "fields": {
+                  "name": "Paraguay",
+                  "code": "PRY",
+                  "phone_code": "+595",
+                  "region": "Americas",
+                  "sub_region": "South America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 173,
+            "fields": {
+                  "name": "Peru",
+                  "code": "PER",
+                  "phone_code": "+51",
+                  "region": "Americas",
+                  "sub_region": "South America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 174,
+            "fields": {
+                  "name": "Philippines",
+                  "code": "PHL",
+                  "phone_code": "+63",
+                  "region": "Asia",
+                  "sub_region": "South-Eastern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 175,
+            "fields": {
+                  "name": "Pitcairn Island",
+                  "code": "PCN",
+                  "phone_code": "+870",
+                  "region": "Oceania",
+                  "sub_region": "Polynesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 176,
+            "fields": {
+                  "name": "Poland",
+                  "code": "POL",
+                  "phone_code": "+48",
+                  "region": "Europe",
+                  "sub_region": "Eastern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 177,
+            "fields": {
+                  "name": "Portugal",
+                  "code": "PRT",
+                  "phone_code": "+351",
+                  "region": "Europe",
+                  "sub_region": "Southern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 178,
+            "fields": {
+                  "name": "Puerto Rico",
+                  "code": "PRI",
+                  "phone_code": "+1-787 and 1-939",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 179,
+            "fields": {
+                  "name": "Qatar",
+                  "code": "QAT",
+                  "phone_code": "+974",
+                  "region": "Asia",
+                  "sub_region": "Western Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 180,
+            "fields": {
+                  "name": "Reunion",
+                  "code": "REU",
+                  "phone_code": "+262",
+                  "region": "Africa",
+                  "sub_region": "Eastern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 181,
+            "fields": {
+                  "name": "Romania",
+                  "code": "ROU",
+                  "phone_code": "+40",
+                  "region": "Europe",
+                  "sub_region": "Eastern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 182,
+            "fields": {
+                  "name": "Russia",
+                  "code": "RUS",
+                  "phone_code": "+7",
+                  "region": "Europe",
+                  "sub_region": "Eastern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 183,
+            "fields": {
+                  "name": "Rwanda",
+                  "code": "RWA",
+                  "phone_code": "+250",
+                  "region": "Africa",
+                  "sub_region": "Eastern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 184,
+            "fields": {
+                  "name": "Saint Helena",
+                  "code": "SHN",
+                  "phone_code": "+290",
+                  "region": "Africa",
+                  "sub_region": "Western Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 185,
+            "fields": {
+                  "name": "Saint Kitts And Nevis",
+                  "code": "KNA",
+                  "phone_code": "+1-869",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 186,
+            "fields": {
+                  "name": "Saint Lucia",
+                  "code": "LCA",
+                  "phone_code": "+1-758",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 187,
+            "fields": {
+                  "name": "Saint Pierre and Miquelon",
+                  "code": "SPM",
+                  "phone_code": "+508",
+                  "region": "Americas",
+                  "sub_region": "Northern America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 188,
+            "fields": {
+                  "name": "Saint Vincent And The Grenadines",
+                  "code": "VCT",
+                  "phone_code": "+1-784",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 189,
+            "fields": {
+                  "name": "Saint-Barthelemy",
+                  "code": "BLM",
+                  "phone_code": "+590",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 190,
+            "fields": {
+                  "name": "Saint-Martin (French part)",
+                  "code": "MAF",
+                  "phone_code": "+590",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 191,
+            "fields": {
+                  "name": "Samoa",
+                  "code": "WSM",
+                  "phone_code": "+685",
+                  "region": "Oceania",
+                  "sub_region": "Polynesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 192,
+            "fields": {
+                  "name": "San Marino",
+                  "code": "SMR",
+                  "phone_code": "+378",
+                  "region": "Europe",
+                  "sub_region": "Southern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 193,
+            "fields": {
+                  "name": "Sao Tome and Principe",
+                  "code": "STP",
+                  "phone_code": "+239",
+                  "region": "Africa",
+                  "sub_region": "Middle Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 194,
+            "fields": {
+                  "name": "Saudi Arabia",
+                  "code": "SAU",
+                  "phone_code": "+966",
+                  "region": "Asia",
+                  "sub_region": "Western Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 195,
+            "fields": {
+                  "name": "Senegal",
+                  "code": "SEN",
+                  "phone_code": "+221",
+                  "region": "Africa",
+                  "sub_region": "Western Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 196,
+            "fields": {
+                  "name": "Serbia",
+                  "code": "SRB",
+                  "phone_code": "+381",
+                  "region": "Europe",
+                  "sub_region": "Southern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 197,
+            "fields": {
+                  "name": "Seychelles",
+                  "code": "SYC",
+                  "phone_code": "+248",
+                  "region": "Africa",
+                  "sub_region": "Eastern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 198,
+            "fields": {
+                  "name": "Sierra Leone",
+                  "code": "SLE",
+                  "phone_code": "+232",
+                  "region": "Africa",
+                  "sub_region": "Western Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 199,
+            "fields": {
+                  "name": "Singapore",
+                  "code": "SGP",
+                  "phone_code": "+65",
+                  "region": "Asia",
+                  "sub_region": "South-Eastern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 200,
+            "fields": {
+                  "name": "Slovakia",
+                  "code": "SVK",
+                  "phone_code": "+421",
+                  "region": "Europe",
+                  "sub_region": "Eastern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 201,
+            "fields": {
+                  "name": "Slovenia",
+                  "code": "SVN",
+                  "phone_code": "+386",
+                  "region": "Europe",
+                  "sub_region": "Southern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 202,
+            "fields": {
+                  "name": "Solomon Islands",
+                  "code": "SLB",
+                  "phone_code": "+677",
+                  "region": "Oceania",
+                  "sub_region": "Melanesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 203,
+            "fields": {
+                  "name": "Somalia",
+                  "code": "SOM",
+                  "phone_code": "+252",
+                  "region": "Africa",
+                  "sub_region": "Eastern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 204,
+            "fields": {
+                  "name": "South Africa",
+                  "code": "ZAF",
+                  "phone_code": "+27",
+                  "region": "Africa",
+                  "sub_region": "Southern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 205,
+            "fields": {
+                  "name": "South Georgia",
+                  "code": "SGS",
+                  "phone_code": "",
+                  "region": "Americas",
+                  "sub_region": "South America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 206,
+            "fields": {
+                  "name": "South Sudan",
+                  "code": "SSD",
+                  "phone_code": "+211",
+                  "region": "Africa",
+                  "sub_region": "Middle Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 207,
+            "fields": {
+                  "name": "Spain",
+                  "code": "ESP",
+                  "phone_code": "+34",
+                  "region": "Europe",
+                  "sub_region": "Southern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 208,
+            "fields": {
+                  "name": "Sri Lanka",
+                  "code": "LKA",
+                  "phone_code": "+94",
+                  "region": "Asia",
+                  "sub_region": "Southern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 209,
+            "fields": {
+                  "name": "Sudan",
+                  "code": "SDN",
+                  "phone_code": "+249",
+                  "region": "Africa",
+                  "sub_region": "Northern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 210,
+            "fields": {
+                  "name": "Suriname",
+                  "code": "SUR",
+                  "phone_code": "+597",
+                  "region": "Americas",
+                  "sub_region": "South America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 211,
+            "fields": {
+                  "name": "Svalbard And Jan Mayen Islands",
+                  "code": "SJM",
+                  "phone_code": "+47",
+                  "region": "Europe",
+                  "sub_region": "Northern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 212,
+            "fields": {
+                  "name": "Swaziland",
+                  "code": "SWZ",
+                  "phone_code": "+268",
+                  "region": "Africa",
+                  "sub_region": "Southern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 213,
+            "fields": {
+                  "name": "Sweden",
+                  "code": "SWE",
+                  "phone_code": "+46",
+                  "region": "Europe",
+                  "sub_region": "Northern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 214,
+            "fields": {
+                  "name": "Switzerland",
+                  "code": "CHE",
+                  "phone_code": "+41",
+                  "region": "Europe",
+                  "sub_region": "Western Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 215,
+            "fields": {
+                  "name": "Syria",
+                  "code": "SYR",
+                  "phone_code": "+963",
+                  "region": "Asia",
+                  "sub_region": "Western Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 216,
+            "fields": {
+                  "name": "Taiwan",
+                  "code": "TWN",
+                  "phone_code": "+886",
+                  "region": "Asia",
+                  "sub_region": "Eastern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 217,
+            "fields": {
+                  "name": "Tajikistan",
+                  "code": "TJK",
+                  "phone_code": "+992",
+                  "region": "Asia",
+                  "sub_region": "Central Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 218,
+            "fields": {
+                  "name": "Tanzania",
+                  "code": "TZA",
+                  "phone_code": "+255",
+                  "region": "Africa",
+                  "sub_region": "Eastern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 219,
+            "fields": {
+                  "name": "Thailand",
+                  "code": "THA",
+                  "phone_code": "+66",
+                  "region": "Asia",
+                  "sub_region": "South-Eastern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 220,
+            "fields": {
+                  "name": "Togo",
+                  "code": "TGO",
+                  "phone_code": "+228",
+                  "region": "Africa",
+                  "sub_region": "Western Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 221,
+            "fields": {
+                  "name": "Tokelau",
+                  "code": "TKL",
+                  "phone_code": "+690",
+                  "region": "Oceania",
+                  "sub_region": "Polynesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 222,
+            "fields": {
+                  "name": "Tonga",
+                  "code": "TON",
+                  "phone_code": "+676",
+                  "region": "Oceania",
+                  "sub_region": "Polynesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 223,
+            "fields": {
+                  "name": "Trinidad And Tobago",
+                  "code": "TTO",
+                  "phone_code": "+1-868",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 224,
+            "fields": {
+                  "name": "Tunisia",
+                  "code": "TUN",
+                  "phone_code": "+216",
+                  "region": "Africa",
+                  "sub_region": "Northern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 225,
+            "fields": {
+                  "name": "Turkey",
+                  "code": "TUR",
+                  "phone_code": "+90",
+                  "region": "Asia",
+                  "sub_region": "Western Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 226,
+            "fields": {
+                  "name": "Turkmenistan",
+                  "code": "TKM",
+                  "phone_code": "+993",
+                  "region": "Asia",
+                  "sub_region": "Central Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 227,
+            "fields": {
+                  "name": "Turks And Caicos Islands",
+                  "code": "TCA",
+                  "phone_code": "+1-649",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 228,
+            "fields": {
+                  "name": "Tuvalu",
+                  "code": "TUV",
+                  "phone_code": "+688",
+                  "region": "Oceania",
+                  "sub_region": "Polynesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 229,
+            "fields": {
+                  "name": "Uganda",
+                  "code": "UGA",
+                  "phone_code": "+256",
+                  "region": "Africa",
+                  "sub_region": "Eastern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 230,
+            "fields": {
+                  "name": "Ukraine",
+                  "code": "UKR",
+                  "phone_code": "+380",
+                  "region": "Europe",
+                  "sub_region": "Eastern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 231,
+            "fields": {
+                  "name": "United Arab Emirates",
+                  "code": "ARE",
+                  "phone_code": "+971",
+                  "region": "Asia",
+                  "sub_region": "Western Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 232,
+            "fields": {
+                  "name": "United Kingdom",
+                  "code": "GBR",
+                  "phone_code": "+44",
+                  "region": "Europe",
+                  "sub_region": "Northern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 233,
+            "fields": {
+                  "name": "United States",
+                  "code": "USA",
+                  "phone_code": "+1",
+                  "region": "Americas",
+                  "sub_region": "Northern America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 234,
+            "fields": {
+                  "name": "United States Minor Outlying Islands",
+                  "code": "UMI",
+                  "phone_code": "+1",
+                  "region": "Americas",
+                  "sub_region": "Northern America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 235,
+            "fields": {
+                  "name": "Uruguay",
+                  "code": "URY",
+                  "phone_code": "+598",
+                  "region": "Americas",
+                  "sub_region": "South America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 236,
+            "fields": {
+                  "name": "Uzbekistan",
+                  "code": "UZB",
+                  "phone_code": "+998",
+                  "region": "Asia",
+                  "sub_region": "Central Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 237,
+            "fields": {
+                  "name": "Vanuatu",
+                  "code": "VUT",
+                  "phone_code": "+678",
+                  "region": "Oceania",
+                  "sub_region": "Melanesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 238,
+            "fields": {
+                  "name": "Vatican City State (Holy See)",
+                  "code": "VAT",
+                  "phone_code": "+379",
+                  "region": "Europe",
+                  "sub_region": "Southern Europe"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 239,
+            "fields": {
+                  "name": "Venezuela",
+                  "code": "VEN",
+                  "phone_code": "+58",
+                  "region": "Americas",
+                  "sub_region": "South America"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 240,
+            "fields": {
+                  "name": "Vietnam",
+                  "code": "VNM",
+                  "phone_code": "+84",
+                  "region": "Asia",
+                  "sub_region": "South-Eastern Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 241,
+            "fields": {
+                  "name": "Virgin Islands (British)",
+                  "code": "VGB",
+                  "phone_code": "+1-284",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 242,
+            "fields": {
+                  "name": "Virgin Islands (US)",
+                  "code": "VIR",
+                  "phone_code": "+1-340",
+                  "region": "Americas",
+                  "sub_region": "Caribbean"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 243,
+            "fields": {
+                  "name": "Wallis And Futuna Islands",
+                  "code": "WLF",
+                  "phone_code": "+681",
+                  "region": "Oceania",
+                  "sub_region": "Polynesia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 244,
+            "fields": {
+                  "name": "Western Sahara",
+                  "code": "ESH",
+                  "phone_code": "+212",
+                  "region": "Africa",
+                  "sub_region": "Northern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 245,
+            "fields": {
+                  "name": "Yemen",
+                  "code": "YEM",
+                  "phone_code": "+967",
+                  "region": "Asia",
+                  "sub_region": "Western Asia"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 246,
+            "fields": {
+                  "name": "Zambia",
+                  "code": "ZMB",
+                  "phone_code": "+260",
+                  "region": "Africa",
+                  "sub_region": "Eastern Africa"
+            }
+      },
+      {
+            "model": "country.Country",
+            "pk": 247,
+            "fields": {
+                  "name": "Zimbabwe",
+                  "code": "ZWE",
+                  "phone_code": "+263",
+                  "region": "Africa",
+                  "sub_region": "Eastern Africa"
+            }
+      }
+]

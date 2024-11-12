@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+{{object.title}} | YK PEB STRUCTURE 
+{% endblock title %}
+
+{% block body %}
+<div id="banner-area" class="banner-area" style="background-image:url({% static "images/banner/banner1.jpg" %})">
+    <div class="banner-text">
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+                <div class="banner-heading">
+                  <h2 class="banner-title">{{ object.title }}</h2>
+                </div>
+            </div><!-- Col end -->
+          </div><!-- Row end -->
+      </div><!-- Container end -->
+    </div><!-- Banner text end -->
+  </div><!-- Banner area end --> 
+  
+  <section id="main-container" class="main-container">
+    <div class="container">
+  
+      <div class="row">
+        <div class="col-lg-8">
+          <div id="page-slider" class="page-slider small-bg">
+            {% for img in job.job_images.all %}
+            <div class="item">
+              <img loading="lazy" class="img-fluid" src="{{img.image.url}}" alt="project-image" />
+            </div>
+            {% endfor %}
+          </div><!-- Page slider end -->
+        </div><!-- Slider col end -->
+  
+        <div class="col-lg-4 mt-5 mt-lg-0">
+  
+          <h3 class="column-title mrt-0">{{object.title}}</h3>
+          <p>{{object.description}}</p>
+  
+          <ul class="project-info list-unstyled">
+            <li>
+              <p class="project-info-label">Client</p>
+              <p class="project-info-content">{{object.client.name}}</p>
+            </li>
+            <li>
+              <p class="project-info-label">Location</p>
+              <p class="project-info-content">{{object.work_location}}</p>
+            </li>
+            <li>
+              <p class="project-info-label">Area Covered</p>
+              <p class="project-info-content">{{object.total_area_covered}}</p>
+            </li>
+            <li>
+              <p class="project-info-label">Year Completed</p>
+              <p class="project-info-content">{{ object.end_date|date:"Y" }}</p>
+            </li>
+            <li>
+              <p class="project-info-label">Job Type</p>
+              <p class="project-info-content">{{object.job_type.name}}</p>
+            </li>
+            <li>
+              <p class="project-link">
+                <a class="btn btn-primary" target="_blank" href="{% url "contact-us" %}">Enquire now</a>
+              </p>
+            </li>
+          </ul>
+  
+        </div><!-- Content col end -->
+  
+      </div><!-- Row end -->
+  
+    </div><!-- Conatiner end -->
+  </section><!-- Main container end -->
+{% endblock body %}

@@ -1,0 +1,174 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+About Us | DEVKINANDAN STEEL & METALS INDUSTRIES LLP
+{% endblock title %}
+
+{% block metadata %}
+    <meta name="description" content="Learn more about DEVKINANDAN STEEL & METALS INDUSTRIES LLP, We take pride in our commitment to quality and excellence. We are dedicated to exceeding your expectations, delivering excellence in every project we undertake. Contact us to embark on a journey of quality construction and innovative solutions." />
+    <meta name="keywords" content="about us, DEVKINANDAN STEEL & METALS INDUSTRIES LLP, company mission, team, [product/service], values, company story, business history" />
+    <meta name="author" content="DEVKINANDAN STEEL & METALS INDUSTRIES LLP" />
+    <meta property="og:title" content="About Us - DEVKINANDAN STEEL & METALS INDUSTRIES LLP" />
+    <meta property="og:description" content="Get to know DEVKINANDAN STEEL & METALS INDUSTRIES LLP, our values, the team behind our success, and our commitment to delivering high-quality services." />
+    <meta name="robots" content="index, follow" />
+{% endblock metadata %}
+
+{% block body %}
+<div id="banner-area" class="banner-area" style="background-image:url({% static "images/banner/banner1.jpg" %})">
+    <div class="banner-text">
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+                <div class="banner-heading">
+                  <h1 class="banner-title">About Us</h1>
+                </div>
+            </div><!-- Col end -->
+          </div><!-- Row end -->
+      </div><!-- Container end -->
+    </div><!-- Banner text end -->
+  </div><!-- Banner area end --> 
+  
+  <section id="main-container" class="main-container">
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-6">
+            <h3 class="column-title">Who We Are</h3>
+            <p>Welcome to {{company.business_name}}, your trusted partner for comprehensive construction solutions. Located at {{company.business_address}}, {{company.city}}, {{company.state}}, {{company.zip_code}}, {{company.country.name}}, we take pride in our commitment to quality and excellence.</p>
+            <p>At {{company.business_name}}, we are dedicated to exceeding your expectations, delivering excellence in every project we undertake. Contact us to embark on a journey of quality construction and innovative solutions.</p>
+  
+          </div><!-- Col end -->
+  
+          <div class="col-lg-6 mt-5 mt-lg-0">
+            
+            <div id="page-slider" class="page-slider small-bg">
+  
+                <div class="item" style="background-image:url({% static "images/slider-pages/slide-page1.jpg" %})">
+                  <div class="container">
+                      <div class="box-slider-content">
+                        <div class="box-slider-text">
+                            <h2 class="box-slide-title">Leadership</h2>
+                        </div>    
+                      </div>
+                  </div>
+                </div><!-- Item 1 end -->
+  
+                <div class="item" style="background-image:url({% static "images/slider-pages/slide-page2.jpg" %})">
+                  <div class="container">
+                      <div class="box-slider-content">
+                        <div class="box-slider-text">
+                            <h2 class="box-slide-title">Relationships</h2>
+                        </div>    
+                      </div>
+                  </div>
+                </div><!-- Item 1 end -->
+  
+                <div class="item" style="background-image:url({% static "images/slider-pages/slide-page2.jpg" %})">
+                  <div class="container">
+                      <div class="box-slider-content">
+                        <div class="box-slider-text">
+                            <h2 class="box-slide-title">Performance</h2>
+                        </div>    
+                      </div>
+                  </div>
+                </div><!-- Item 1 end -->
+            </div><!-- Page slider end-->          
+          
+  
+          </div><!-- Col end -->
+      </div><!-- Content row end -->
+  
+    </div><!-- Container end -->
+  </section><!-- Main container end -->
+  
+  
+  <section id="facts" class="facts-area dark-bg">
+    <div class="container">
+      <div class="facts-wrapper">
+          <div class="row">
+            <div class="col-md-3 col-sm-6 ts-facts">
+                <div class="ts-facts-img">
+                  <img loading="lazy" src="{% static "images/icon-image/fact1.png" %}" alt="facts-img">
+                </div>
+                <div class="ts-facts-content">
+                  <h2 class="ts-facts-num"><span class="counterUp" data-count="{{projects}}">0</span></h2>
+                  <h3 class="ts-facts-title">Total Projects</h3>
+                </div>
+            </div><!-- Col end -->
+  
+            <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-sm-0">
+                <div class="ts-facts-img">
+                  <img loading="lazy" src="{% static "images/icon-image/fact2.png" %}" alt="facts-img">
+                </div>
+                <div class="ts-facts-content">
+                  <h2 class="ts-facts-num"><span class="counterUp" data-count="{{employees}}">0</span></h2>
+                  <h3 class="ts-facts-title">Staff Members</h3>
+                </div>
+            </div><!-- Col end -->
+  
+            <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-md-0">
+                <div class="ts-facts-img">
+                  <img loading="lazy" src="{% static "images/icon-image/fact3.png" %}" alt="facts-img">
+                </div>
+                <div class="ts-facts-content">
+                  <h2 class="ts-facts-num"><span class="counterUp" data-count="{{hours_of_work}}">0</span></h2>
+                  <h3 class="ts-facts-title">Hours of Work</h3>
+                </div>
+            </div><!-- Col end -->
+  
+            <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-md-0">
+                <div class="ts-facts-img">
+                  <img loading="lazy" src="{% static "images/icon-image/fact4.png" %}" alt="facts-img">
+                </div>
+                <div class="ts-facts-content">
+                  <h2 class="ts-facts-num"><span class="counterUp" data-count="{{company.count_selected_countries}}">0</span></h2>
+                  <h3 class="ts-facts-title">Countries Experience</h3>
+                </div>
+            </div><!-- Col end -->
+  
+          </div> <!-- Facts end -->
+      </div>
+      <!--/ Content row end -->
+    </div>
+    <!--/ Container end -->
+  </section><!-- Facts end -->
+  
+  <section id="ts-team" class="ts-team">
+    <div class="container">
+      <div class="row text-center">
+          <div class="col-lg-12">
+            <h2 class="section-title">Quality Service</h2>
+            <h3 class="section-sub-title">Professional Team</h3>
+          </div>
+      </div><!--/ Title row end -->
+  
+      <div class="row">
+          <div class="col-lg-12">
+            <div id="team-slide" class="team-slide">
+                {% for emp in employee_details %}
+                <div class="item">
+                  <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      {% if emp.passport_image %}
+                        <img loading="lazy" class="w-100" src="{{ emp.passport_image.url }}" alt="team-img">
+                      {% else %}
+                        <p>No passport image available for this team member.</p>
+                      {% endif %}
+                    </div>                    
+                      <div class="ts-team-content">
+                        <h3 class="ts-name">{{emp.name}}</h3>
+                        <p class="ts-designation">{{emp.designation}}</p>
+                        <div class="team-social-icons">
+                            <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a>
+                        </div><!--/ social-icons-->
+                      </div>
+                  </div><!--/ Team wrapper end -->
+                </div><!-- Team 1 end -->
+                {% endfor %}
+            </div><!-- Team slide end -->
+          </div>
+      </div><!--/ Content row end -->
+    </div><!--/ Container end -->
+  </section><!--/ Team end -->
+{% endblock body %}

@@ -1,0 +1,24 @@
+{% extends "admin/change_list.html" %}
+
+{% block content %}
+  {% if cl.opts.model_name == 'employee' %}
+    <div id="content-main">
+      <form method="post" enctype="multipart/form-data" action="{% url 'upload_employee_details' %}">
+        {% csrf_token %}
+        <h2>Upload Employee Details</h2>
+        <input type="file" name="excel_file" accept=".xlsx, .xls">
+        <input type="submit" value="Upload">
+      </form>
+    </div>
+
+    <div style="float: left; margin-top: 10px; margin-bottom: 15px;">
+      <button type="submit" value="Download"><a href="{% url "download_employee_details" %}">Download Employee Records</a></button>  
+    </div>
+  {% endif %}
+
+  {% if cl.opts.model_name == 'salaryslip' %}
+  <button type="submit"><a href="salary-report/">Generate All Employee Salary Report</a></button>
+  {% endif %}
+
+  {{ block.super }}
+{% endblock %}
