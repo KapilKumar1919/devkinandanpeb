@@ -8,7 +8,7 @@ services:
     depends_on:
       - db
     command: >
-      sh -c "python manage.py migrate && python manage.py create_superuser && python manage.py loaddata fixtures/currencies.json && python manage.py loaddata fixtures/countries.json && waitress-serve --port=8000 devkinandanpeb.wsgi:application"
+      sh -c "python manage.py migrate && python manage.py create_superuser && python manage.py collectstatic && python manage.py loaddata fixtures/currencies.json && python manage.py loaddata fixtures/countries.json && waitress-serve --port=8000 devkinandanpeb.wsgi:application"
 
   db:
     image: postgres
