@@ -1,0 +1,9 @@
+1. Update system
+cmd: sudo apt-get update
+
+2. Clone Repo
+cmd: git clone https://github.com/KapilKumar1919/devkinandanpeb.git
+
+3. Download django using pip
+cmd: sudo apt install python3-pip -y
+cmd: pip install django
