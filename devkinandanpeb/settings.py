@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-89qx)pmxvs@4k&gch)jza4#i=##w@o&+=7e-3p)(u5n-1!zop*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['13.201.104.248', 'www.devkinandanpeb.com', 'devkinandanpeb.com']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -129,8 +129,18 @@ USE_I18N = True
 
 USE_TZ = True
 
-STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # This should be the path where static files are collected
+# settings.py
+
+STATIC_URL = '/static/'  # This is the URL to access static files
+
+# STATIC_ROOT is where Django will collect all static files during the collectstatic command
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # Make sure it's pointing to staticfiles folder
+
+# Directories where additional static files are located, used during development
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),  # Development static directory
+]
+
 
 
 # Media files (uploaded by users)

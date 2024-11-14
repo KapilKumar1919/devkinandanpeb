@@ -119,7 +119,6 @@ py3/
 
 .idea
 
-static/
 media/
 logs/
 postgres_data/
