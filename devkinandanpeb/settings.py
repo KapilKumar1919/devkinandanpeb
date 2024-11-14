@@ -129,17 +129,8 @@ USE_I18N = True
 
 USE_TZ = True
 
-# Static files (CSS, JavaScript, Images)
-STATIC_URL = '/static/'  # URL to access static files in the browser
-
-# This is where collectstatic will collect your static files in production
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
-# Directory where your additional static files (like CSS, JS) are located during development
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),  # Development static directory
-]
-
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # This should be the path where static files are collected
 
 
 # Media files (uploaded by users)
