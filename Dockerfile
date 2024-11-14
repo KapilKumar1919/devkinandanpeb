@@ -20,4 +20,4 @@ EXPOSE 8000
 ENV DJANGO_SETTINGS_MODULE=devkinandanpeb.settings
 
 # Run Waitress to serve the application
-CMD ["waitress-serve", "--port=8000", "devkinandanpeb.wsgi:application"]
+CMD ["waitress-serve", "--port=80", "devkinandanpeb.wsgi:application"]

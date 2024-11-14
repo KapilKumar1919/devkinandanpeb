@@ -13,7 +13,7 @@ services:
              python manage.py collectstatic --noinput &&
              python manage.py loaddata fixtures/currencies.json &&
              python manage.py loaddata fixtures/countries.json &&
-             waitress-serve --port=8000 devkinandanpeb.wsgi:application"
+             waitress-serve --port=80 devkinandanpeb.wsgi:application"
 
   db:
     image: postgres
