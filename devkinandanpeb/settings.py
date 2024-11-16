@@ -155,17 +155,19 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 DATE_INPUT_FORMATS = ['%d-%m-%Y']
 TIME_INPUT_FORMATS = ('%I:%M %p',)
 
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = False  # Set to False, as we will specifically define trusted origins
+
 CORS_ALLOW_CREDENTIALS = True
 
+# Update the whitelist and allowed origins to include localhost
 CORS_ORIGIN_WHITELIST = [
-    'http://devkinandanpeb.com/',
-    'http://www.devkinandanpeb.com/'
+    'http://localhost:8000/',  # Localhost development (adjust the port as needed)
+    'https://localhost:8000/',  # Localhost with HTTPS if you are using a local SSL certificate
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://devkinandanpeb.com/',
-    'http://www.devkinandanpeb.com/'
+    'http://localhost:8000/',
+    'https://localhost:8000/',  # Add HTTPS version for secure connections
 ]
 
 CORS_ALLOW_HEADERS = [
@@ -181,3 +183,4 @@ CORS_ALLOW_METHODS = [
     'DELETE',
     'OPTIONS',
 ]
+
