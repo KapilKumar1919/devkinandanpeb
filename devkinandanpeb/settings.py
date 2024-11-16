@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'company',
     'country',
     'currency',
+    'storages',
 ]
 
 SITE_ID = 1
