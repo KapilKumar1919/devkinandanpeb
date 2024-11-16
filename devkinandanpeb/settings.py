@@ -131,23 +131,20 @@ USE_I18N = True
 
 USE_TZ = True
 
-# settings.py
+# Static files (CSS, JavaScript, images)
+STATIC_URL = '/static/'
 
-STATIC_URL = '/static/'  # This is the URL to access static files
+# This should be a directory that is accessible by Nginx
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # Change this path to where you want your collected static files to be
 
-# STATIC_ROOT is where Django will collect all static files during the collectstatic command
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # Make sure it's pointing to staticfiles folder
-
-# Directories where additional static files are located, used during development
+# Additional directories where static files are located (used during development)
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),  # Development static directory
+    os.path.join(BASE_DIR, 'static'),  # This points to the development static directory
 ]
 
-
-
-# Media files (uploaded by users)
+# Media files (uploads)
 MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
