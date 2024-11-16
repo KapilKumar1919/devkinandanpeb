@@ -64,7 +64,9 @@ TEMPLATES = [
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-WSGI_APPLICATION = 'devkinandanpeb.wsgi.application'
+# WSGI_APPLICATION = 'devkinandanpeb.wsgi.application'
+
+ASGI_APPLICATION = 'devkinandanpeb.asgi.application'
 
 
 # Database
