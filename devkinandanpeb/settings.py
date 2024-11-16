@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-89qx)pmxvs@4k&gch)jza4#i=##w@o&+=7e-3p)(u5n-1!zop*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['devkinandanpeb.com', 'www.devkinandanpeb.com', '3.110.55.255', '127.0.0.1']
+ALLOWED_HOSTS = ['devkinandanpeb.com', 'www.devkinandanpeb.com', '3.110.55.255', '127.0.0.1', 'ec2-3-110-55-255.ap-south-1.compute.amazonaws.com']
 
 # Application definition
 
@@ -162,12 +162,12 @@ CORS_ALLOW_CREDENTIALS = True
 # Update the whitelist and allowed origins to include localhost
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:8000/',  # Localhost development (adjust the port as needed)
-    'https://localhost:8000/',  # Localhost with HTTPS if you are using a local SSL certificate
+    'http://devkinandanpeb.s3.amazonaws.com'
 ]
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:8000/',
-    'https://localhost:8000/',  # Add HTTPS version for secure connections
+    'http://devkinandanpeb.s3.amazonaws.com'
 ]
 
 CORS_ALLOW_HEADERS = [
