@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     'country',
     'currency',
     'storages',
+    'corsheaders',
 ]
 
 SITE_ID = 1
@@ -39,6 +40,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     # 'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -153,12 +155,29 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 DATE_INPUT_FORMATS = ['%d-%m-%Y']
 TIME_INPUT_FORMATS = ('%I:%M %p',)
 
-# CORS_ALLOW_ALL_ORIGINS = True
-#
-# CORS_ORIGIN_WHITELIST = [
-#     'http://127.0.0.1:8000',
-# ]
-#
-# CORS_ALLOWED_ORIGINS = [
-#     "http://127.0.0.1:8000",
-# ]
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = True
+
+CORS_ORIGIN_WHITELIST = [
+    'http://devkinandanpeb.com/',
+    'http://www.devkinandanpeb.com/'
+]
+
+CORS_ALLOWED_ORIGINS = [
+    'http://devkinandanpeb.com/',
+    'http://www.devkinandanpeb.com/'
+]
+
+CORS_ALLOW_HEADERS = [
+    'content-type',
+    'authorization',
+    'x-custom-header',  # Example of custom headers
+]
+
+CORS_ALLOW_METHODS = [
+    'GET',
+    'POST',
+    'PUT',
+    'DELETE',
+    'OPTIONS',
+]
