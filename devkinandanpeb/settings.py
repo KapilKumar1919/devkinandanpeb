@@ -161,12 +161,10 @@ CORS_ALLOW_CREDENTIALS = True
 
 # Update the whitelist and allowed origins to include localhost
 CORS_ORIGIN_WHITELIST = [
-    'http://localhost:8000/',  # Localhost development (adjust the port as needed)
     'http://devkinandanpeb.s3.amazonaws.com'
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:8000/',
     'http://devkinandanpeb.s3.amazonaws.com'
 ]
 
