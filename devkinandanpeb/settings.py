@@ -24,6 +24,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    "whitenoise.runserver_nostatic",
     'django.contrib.staticfiles',
     'employee',
     'company',
@@ -36,7 +37,6 @@ INSTALLED_APPS = [
 SITE_ID = 1
 
 MIDDLEWARE = [
-    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',
@@ -45,6 +45,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'devkinandanpeb.urls'
@@ -157,13 +158,13 @@ CORS_ALLOW_ALL_ORIGINS = False  # Set to False, as we will specifically define t
 CORS_ALLOW_CREDENTIALS = True
 
 # Update the whitelist and allowed origins to include localhost
-# CORS_ORIGIN_WHITELIST = [
-#     'http://devkinandanpeb.s3.amazonaws.com'
-# ]
-#
-# CORS_ALLOWED_ORIGINS = [
-#     'http://devkinandanpeb.s3.amazonaws.com'
-# ]
+CORS_ORIGIN_WHITELIST = [
+    'http://devkinandanpeb.s3.amazonaws.com'
+]
+
+CORS_ALLOWED_ORIGINS = [
+    'http://devkinandanpeb.s3.amazonaws.com'
+]
 
 CORS_ALLOW_HEADERS = [
     'content-type',

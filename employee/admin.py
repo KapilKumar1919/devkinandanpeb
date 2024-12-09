@@ -10,7 +10,7 @@ class EmployeeAdmin(admin.ModelAdmin):
         'name', 
         'designation',
         'mobile',
-        'display_image',
+        # 'display_image',
         )
     list_filter = (
         'designation',
@@ -20,8 +20,8 @@ class EmployeeAdmin(admin.ModelAdmin):
 
     search_fields = ('name', 'mobile')
 
-    @staticmethod
-    def display_image(self, obj):
-        if obj.logo:
-            return mark_safe('<img src="{}" width="100" height="100" />'.format(obj.logo.url))
-        return 'No Image'
+    # @staticmethod
+    # def display_image(self, obj):
+    #     if obj.logo:
+    #         return mark_safe('<img src="{}" width="100" height="100" />'.format(obj.logo.url))
+    #     return 'No Image'
