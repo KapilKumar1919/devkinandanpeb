@@ -159,11 +159,11 @@ CORS_ALLOW_CREDENTIALS = True
 
 # Update the whitelist and allowed origins to include localhost
 CORS_ORIGIN_WHITELIST = [
-    'http://devkinandanpeb.s3.amazonaws.com'
+    'https://devkinandanpeb.s3.amazonaws.com',  # Always use HTTPS here!
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://devkinandanpeb.s3.amazonaws.com'
+    'https://devkinandanpeb.s3.amazonaws.com',  # Always use HTTPS here!
 ]
 
 CORS_ALLOW_HEADERS = [
@@ -179,4 +179,5 @@ CORS_ALLOW_METHODS = [
     'DELETE',
     'OPTIONS',
 ]
+
 
