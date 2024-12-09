@@ -14,12 +14,11 @@ SECRET_KEY = 'django-insecure-89qx)pmxvs@4k&gch)jza4#i=##w@o&+=7e-3p)(u5n-1!zop*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['devkinandanpeb.com', 'www.devkinandanpeb.com', '3.110.55.255', '127.0.0.1', 'ec2-3-110-55-255.ap-south-1.compute.amazonaws.com']
+ALLOWED_HOSTS = ['devkinandanpeb.com', 'www.devkinandanpeb.com', '3.110.55.255', '127.0.0.1']
 
 # Application definition
 
 INSTALLED_APPS = [
-    'whitenoise.runserver_nostatic',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -38,7 +37,6 @@ SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -65,8 +63,6 @@ TEMPLATES = [
         },
     },
 ]
-
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # WSGI_APPLICATION = 'devkinandanpeb.wsgi.application'
 
@@ -160,13 +156,13 @@ CORS_ALLOW_ALL_ORIGINS = False  # Set to False, as we will specifically define t
 CORS_ALLOW_CREDENTIALS = True
 
 # Update the whitelist and allowed origins to include localhost
-CORS_ORIGIN_WHITELIST = [
-    'http://devkinandanpeb.s3.amazonaws.com'
-]
-
-CORS_ALLOWED_ORIGINS = [
-    'http://devkinandanpeb.s3.amazonaws.com'
-]
+# CORS_ORIGIN_WHITELIST = [
+#     'http://devkinandanpeb.s3.amazonaws.com'
+# ]
+#
+# CORS_ALLOWED_ORIGINS = [
+#     'http://devkinandanpeb.s3.amazonaws.com'
+# ]
 
 CORS_ALLOW_HEADERS = [
     'content-type',
@@ -181,4 +177,5 @@ CORS_ALLOW_METHODS = [
     'DELETE',
     'OPTIONS',
 ]
+
 
