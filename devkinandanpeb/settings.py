@@ -36,6 +36,7 @@ INSTALLED_APPS = [
 SITE_ID = 1
 
 MIDDLEWARE = [
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',
@@ -132,7 +133,7 @@ USE_I18N = True
 USE_TZ = True
 
 # Static files (CSS, JavaScript, images)
-STATIC_URL = '/static/'
+# STATIC_URL = '/static/'
 
 # This should be a directory that is accessible by Nginx
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # Change this path to where you want your collected static files to be
@@ -143,7 +144,7 @@ STATICFILES_DIRS = [
 ]
 
 # Media files (uploads)
-MEDIA_URL = '/media/'
+# MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
@@ -177,5 +178,4 @@ CORS_ALLOW_METHODS = [
     'DELETE',
     'OPTIONS',
 ]
-
 
